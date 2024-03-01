@@ -30,7 +30,7 @@ botonFormulario.addEventListener("click",function(evento){
             sessionStorage.setItem("nombre",nombreUsuario)
             sessionStorage.setItem("correo",correoUsuario)
             sessionStorage.setItem("contrasena",passwordUsario)
-            window.location.href="/solucionjs/src/views/peticiones.html"
+            window.location.href="./src/views/peticiones.html"
           },2000)
         
           
